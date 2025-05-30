@@ -1,17 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Benjamin Otoo Addo</title>
+  <meta charset="UTF-8" />
+  <title>Benjamin Otoo Addo - Portfolio</title>
   <style>
-    body { font-family: Arial; text-align: center; padding: 50px; }
-    img { width: 150px; border-radius: 50%; }
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 700px;
+      margin: auto;
+      padding: 30px;
+      color: #333;
+      background-color: #f7f7f7;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    img.profile-photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #4CAF50;
+    }
+    h1 {
+      margin: 10px 0 5px;
+    }
+    h2 {
+      color: #4CAF50;
+      margin-top: 40px;
+      border-bottom: 2px solid #4CAF50;
+      padding-bottom: 5px;
+    }
+    p {
+      line-height: 1.6;
+    }
+    a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    section {
+      margin-bottom: 30px;
+    }
   </style>
 </head>
 <body>
-  <h1>Benjamin Otoo Addo</h1>
-  <p><strong>Aspiring Web Developer | Tech Enthusiast</strong></p>
-  <img src="https://via.placeholder.com/150" alt="Your photo here">
-  <p>Welcome to my personal portfolio. More coming soon!</p>
+  <header>
+    <img class="profile-photo" src="https://via.placeholder.com/150" alt="Benjamin Otoo Addo" />
+    <h1>Benjamin Otoo Addo</h1>
+    <p><strong>Aspiring Web Developer | Tech Enthusiast</strong></p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am Benjamin, an aspiring web developer passionate about building clean and efficient websites. I’m currently learning new technologies and working on projects to improve my skills.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Project One:</strong> A portfolio website (this one!) showcasing my skills.</li>
+      <li><strong>Project Two:</strong> A to-do app built with JavaScript and HTML/CSS.</li>
+      <li><strong>Project Three:</strong> Coming soon! Stay tuned.</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>You can reach me at <a href="mailto:benjaminotooaddo1@gmail.com">benjaminotooaddo1@gmail.com</a></p>
+  </section>
 </body>
 </html>
